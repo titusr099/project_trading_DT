@@ -1,0 +1,30 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.env/
+.envrc
+*.env
+
+# Archivos de configuración personales
+*.DS_Store
+*.vscode/
+*.idea/
+*.swp       
+
+# Archivos temporales del sistema
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Archivos generados automáticamente
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos grandes ignorados por git-lfs (si usas)
+*.zip
+*.tar.gz
+*.gz
+*.7z
