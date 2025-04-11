@@ -8,7 +8,7 @@ os.makedirs("data/raw", exist_ok=True)
 
 # Definir ticker y fechas
 ticker = "JNJ"
-start_date = "2010-12-24"
+start_date = "2020-12-24"
 # Calcular la fecha de ayer
 end_date = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
 
